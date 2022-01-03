@@ -1,0 +1,33 @@
+Como interactua la pagina web con php?
+- Modelo cliente servidor.
+    -> Toda nuestra palicacion esta guardada en un mismo servidor,
+    el cual entrega una copia de la misma a cada cliente que la solicite.
+
+- Dominio.
+    -> Es tu direccion en internet.
+
+- Servidor fisico o VPS
+    -> Son las computadoras que se encargan de guardar tu pagina web y
+    de mantenerla siempre accesible, a esta computadora se le llama Servidor.
+    Puede ser virtual (VPS) o fisico.
+
+- Servidor Web.
+    -> Es un programa que corre dentro de nuestro servidor fisico y se encarga
+    de gestionar cualquier peticion que llegue al mismo.
+    Esta peticion es procesada por algun lenguaje de programacion y al 
+    final devuelve la respuesta.
+
+- Metodos HTTP
+    -> Los metodos HTTP son una forma de comunicacion entre el cliente y
+    el navegador. A traves de una solicitud HTTP el cliente es capaz de pedirle
+    al servidor que realice una accion.
+    Existen 5 metodos principales:
+        - GET: Este metodo permite solicitarle informacion al servidor.
+        - POST: Este metodo permite guardar informacion.
+        - PUT/PATCH: Estos metodos permiten actualizar informacion ya guardada.
+            La diferencia entre estos es que PUT reempleza toda la informacion existente
+            y PATCH solo reempleza lo necesario (lo parcha).
+        - DELETE: Este metodo lo utilizamos para eliminar algo.
+            Esto no significa que lo eliminemos de la base de daros, esto se 
+            le llama "Soft-delete".
+            
